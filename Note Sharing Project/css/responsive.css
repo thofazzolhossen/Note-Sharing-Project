@@ -1,0 +1,106 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .header{
+  	grid-template-columns: 1fr 1fr 1fr;
+  }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  .header{
+    display:grid;
+    text-align: center;
+    grid-template-columns: 1fr; 
+     margin-top:180px;
+    padding: 0px 30px;
+    grid-gap:20px;
+
+} 
+.subject-title{
+	padding: 0px 20px;
+} 
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .header{
+    display:grid;
+    text-align: center;
+    grid-template-columns: 1fr; 
+    padding: 0px 10px;
+    grid-gap:20px;
+
+}
+.subject-title{
+	padding: 0px 20px;
+}
+.subject-title-web{
+	padding: 0px 20px;
+}
+.head{
+	font-size: 15px;
+	object-fit:cover;
+    position: relative;
+    max-height:150px;
+    width: 100%;
+    margin-top:10px;
+}
+.title h2{
+	font-size:20px;
+}
+.subject-title h1{
+	font-size:20px;
+}
+.subject-title-web h1{
+	font-size:20px;
+}
+.about-us-link{
+	padding:100px 10px;
+}
+.about-us-link li a{
+    color: grey;
+
+}
+.about-us-link li{
+    list-style: none;
+    padding:10px;
+}
+.footer-section{
+	text-align: center;
+}
+.about-us{
+    padding: 50px 10px;
+}
+.about-us-link h2{
+   text-align: center;
+   font-size:25px;
+}
+.boxes{
+    padding: 20px;
+    margin: 20px 0px;
+    margin: 20px 0px;
+    border:3px solid#286090;
+    position: relative;
+    box-sizing: border-box;
+}
+    .boxes::after{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-top:0px solid #286090;
+            border-right: 3px solid #286090;
+            border-left:0px solid #286090;
+            border-bottom: 3px solid #286090;
+            top: 100%;
+            left:50%;
+            margin-left: -25px;
+            content: "";
+            transform: rotate(45deg);
+            margin-top: -23px;
+            background:#fff;
+
+        }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
